@@ -1,0 +1,44 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply inline-flex text-white  border-0 py-3 px-8 focus:outline-none  rounded text-lg;
+  }
+  .btn-transparent-bordered {
+    @apply bg-transparent border-2 border-gray-200 text-gray-200 hover:bg-darkblue hover:border-darkblue ;
+  }
+  .btn-blue {
+    @apply bg-blue hover:bg-darkblue
+  }
+  .btn-yellow {
+    @apply bg-yellow-500 hover:bg-yellow-600;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 hover:bg-red-600;
+  }
+
+  .section-gray{
+    @apply text-gray-600 bg-sections-pattern bg-repeat;
+  }
+  .section-blue{
+    @apply text-gray-100 bg-lblue;
+  }
+
+  .ctnr {
+    @apply container flex px-6 py-16 items-center md:flex-row ;
+  }
+  .ctnr-right{
+    @apply flex-col;
+  }
+  .ctnr-left {
+    @apply  flex-col-reverse;
+  }
+  
+
+
+}
