@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/capreswebapp/static/css/main.b1359dcc.chunk.css",
+    "main.js": "/capreswebapp/static/js/main.0b4ee4fc.chunk.js",
+    "main.js.map": "/capreswebapp/static/js/main.0b4ee4fc.chunk.js.map",
+    "runtime-main.js": "/capreswebapp/static/js/runtime-main.aba13bbc.js",
+    "runtime-main.js.map": "/capreswebapp/static/js/runtime-main.aba13bbc.js.map",
+    "static/css/2.ec02d681.chunk.css": "/capreswebapp/static/css/2.ec02d681.chunk.css",
+    "static/js/2.91e93f99.chunk.js": "/capreswebapp/static/js/2.91e93f99.chunk.js",
+    "static/js/2.91e93f99.chunk.js.map": "/capreswebapp/static/js/2.91e93f99.chunk.js.map",
+    "index.html": "/capreswebapp/index.html",
+    "static/css/2.ec02d681.chunk.css.map": "/capreswebapp/static/css/2.ec02d681.chunk.css.map",
+    "static/css/main.b1359dcc.chunk.css.map": "/capreswebapp/static/css/main.b1359dcc.chunk.css.map",
+    "static/js/2.91e93f99.chunk.js.LICENSE.txt": "/capreswebapp/static/js/2.91e93f99.chunk.js.LICENSE.txt",
+    "static/media/capres.0ee1930d.jpg": "/capreswebapp/static/media/capres.0ee1930d.jpg",
+    "static/media/financial_data.4d0d4c2e.svg": "/capreswebapp/static/media/financial_data.4d0d4c2e.svg",
+    "static/media/img6.83f88bbd.jpg": "/capreswebapp/static/media/img6.83f88bbd.jpg",
+    "static/media/main.css": "/capreswebapp/static/media/squares.b3b69d22.png",
+    "static/media/undraw_at_home_octe.039202e7.svg": "/capreswebapp/static/media/undraw_at_home_octe.039202e7.svg",
+    "static/media/undraw_by_my_car.c04304b8.svg": "/capreswebapp/static/media/undraw_by_my_car.c04304b8.svg",
+    "static/media/undraw_financial_data.8a194f7f.svg": "/capreswebapp/static/media/undraw_financial_data.8a194f7f.svg",
+    "static/media/undraw_services.2fc84edd.svg": "/capreswebapp/static/media/undraw_services.2fc84edd.svg",
+    "static/media/undraw_transfer_money.76945991.svg": "/capreswebapp/static/media/undraw_transfer_money.76945991.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aba13bbc.js",
+    "static/css/2.ec02d681.chunk.css",
+    "static/js/2.91e93f99.chunk.js",
+    "static/css/main.b1359dcc.chunk.css",
+    "static/js/main.0b4ee4fc.chunk.js"
+  ]
+}
