@@ -15,109 +15,147 @@ export default function Sections() {
   });
   return (
     <>
-      <div class="flex flex-col ">
-        <div class="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
-          <div class="w-1/2 place-content-evenly">
-            <h1 class="text-2xl md:text-4xl font-semibold md:font-bold">Retiro de Haberes</h1>
-            <p>
-              <div class="text-md md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                molestias natus quod? Nulla, aliquid nostrum eveniet
-                necessitatibus nam illum maxime ducimus atque facilis voluptatem
-                iusto recusandae, reiciendis possimus alias explicabo.
-              </div>
+      <div className="flex flex-col ">
+        <div className="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
+          <div
+            className="w-1/2 place-content-evenly"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
+              Retiro de Haberes
+            </h1>
+            <p className="text-md md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              molestias natus quod? Nulla, aliquid nostrum eveniet
+              necessitatibus nam illum maxime ducimus atque facilis voluptatem
+              iusto recusandae, reiciendis possimus alias explicabo.
             </p>
           </div>
-          <div class="p-4 sm:max-w-6xl right-0 w-1/2">
+          <div className="p-4 sm:max-w-6xl right-0 w-1/2">
             <img
               src={haberImg}
               alt="..."
-              class="rounded align-middle border-none"
+              className="rounded align-middle border-none"
             />
           </div>
         </div>
-        <div class="w-full flex py-6 md:flex-row-reverse flex-col items-center section-blue px-4">
-          <div class="w-1/2 content-center">
-            <h1 class="text-2xl md:text-4xl font-semibold md:font-bold">Préstamos Personales</h1>
-            <p>
-              <div class="text-md md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                molestias natus quod? Nulla, aliquid nostrum eveniet
-                necessitatibus nam illum maxime ducimus atque facilis voluptatem
-                iusto recusandae, reiciendis possimus alias explicabo.
-              </div>
+        <div className="w-full flex py-6 md:flex-row-reverse flex-col items-center section-blue px-4">
+          <div
+            className="w-1/2 content-center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
+              Préstamos Personales
+            </h1>
+            <p className="text-md md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              molestias natus quod? Nulla, aliquid nostrum eveniet
+              necessitatibus nam illum maxime ducimus atque facilis voluptatem
+              iusto recusandae, reiciendis possimus alias explicabo.
             </p>
           </div>
-          <div class="md:px-12 sm:max-w-6xl right-0 w-1/2">
+          <div className="md:px-12 sm:max-w-6xl right-0 w-1/2">
             <img
               src={prestImg}
               alt="..."
-              class="rounded align-middle border-none"
+              className="rounded align-middle border-none"
             />
           </div>
         </div>
-        <div class="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
-          <div class="w-1/2 place-content-evenly">
-            <h1 class="text-2xl md:text-4xl font-semibold md:font-bold">Préstamos para Vehículos</h1>
-            <p>
-              <div class="text-md md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                molestias natus quod? Nulla, aliquid nostrum eveniet
-                necessitatibus nam illum maxime ducimus atque facilis voluptatem
-                iusto recusandae, reiciendis possimus alias explicabo.
-              </div>
+        <div className="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
+          <div
+            className="w-1/2 place-content-evenly"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
+              Préstamos para Vehículos
+            </h1>
+            <p className="text-md md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              molestias natus quod? Nulla, aliquid nostrum eveniet
+              necessitatibus nam illum maxime ducimus atque facilis voluptatem
+              iusto recusandae, reiciendis possimus alias explicabo.
             </p>
           </div>
-          <div class="md:px-12 md:py-12 sm:max-w-6xl right-0 w-1/2">
+          <div className="md:px-12 md:py-12 sm:max-w-6xl right-0 w-1/2">
             <img
               src={carImg}
               alt="..."
-              class="rounded align-middle border-none"
+              className="rounded align-middle border-none"
             />
           </div>
         </div>
-        <div class="w-full flex py-6 md:flex-row-reverse flex-col items-center section-blue px-4">
-          <div class="w-1/2 content-center">
-            <h1 class="text-2xl md:text-4xl font-semibold md:font-bold">Préstamos para Vivienda</h1>
-            <p>
-              <div class="text-md md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                molestias natus quod? Nulla, aliquid nostrum eveniet
-                necessitatibus nam illum maxime ducimus atque facilis voluptatem
-                iusto recusandae, reiciendis possimus alias explicabo.
-              </div>
+        <div className="w-full flex py-6 md:flex-row-reverse flex-col items-center section-blue px-4">
+          <div
+            className="w-1/2 content-center"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+          >
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
+              Préstamos para Vehículos
+            </h1>
+            <p className="text-md md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              molestias natus quod? Nulla, aliquid nostrum eveniet
+              necessitatibus nam illum maxime ducimus atque facilis voluptatem
+              iusto recusandae, reiciendis possimus alias explicabo.
             </p>
           </div>
-          <div class="md:px-12 md:py-24 sm:max-w-6xl right-0 w-1/2">
+          <div className="md:px-12 md:py-24 sm:max-w-6xl right-0 w-1/2">
             <img
               src={home}
               alt="..."
-              class="rounded align-middle border-none"
+              className="rounded align-middle border-none"
             />
           </div>
         </div>
-                <div class="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
-          <div class="flex flex-col w-1/2 ">
-            <h1 class="text-2xl md:text-4xl font-semibold md:font-bold">Fondo Especial</h1>
-            <p>
-              <div class="text-md md:text-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-                molestias natus quod? Nulla, aliquid nostrum eveniet
-                necessitatibus nam illum maxime ducimus atque facilis voluptatem
-                iusto recusandae, reiciendis possimus alias explicabo.
-              </div>
+        <div className="w-full flex py-6 md:flex-row flex-col items-center section-gray px-4">
+          <div
+            className="flex flex-col w-1/2 "
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+          >
+            <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">
+              Fondo Especial
+            </h1>
+            <p className="text-md md:text-2xl">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              molestias natus quod? Nulla, aliquid nostrum eveniet
+              necessitatibus nam illum maxime ducimus atque facilis voluptatem
+              iusto recusandae, reiciendis possimus alias explicabo.
             </p>
           </div>
-          <div class="p-4 sm:max-w-6xl right-0 w-1/2">
+          <div className="p-4 sm:max-w-6xl right-0 w-1/2">
             <img
               src={haberImg}
               alt="..."
-              class="rounded align-middle border-none"
+              className="rounded align-middle border-none"
             />
           </div>
         </div>
       </div>
-      
     </>
   );
 }

@@ -39,6 +39,20 @@
     @apply  flex-col-reverse;
   }
   
+  .navigation {
+    @apply relative pt-2 bg-blue h-24   w-full md:absolute z-20 sm:py-10 px-4 md:px-6 md:pt-6 md:bg-transparent;
+  }
+  .navigation.active {
+    @apply md:bg-blue;
+  }
+  .nav-link {
+    @apply pb-2 font-medium border-b-2 border-transparent text-gray-100 hover:text-gray-100 hover:border-b-2 hover:border-gray-100 focus:border-b-2 focus:border-gray-100;
+  }
 
-
+  .nav-link-gray {
+    @apply pb-2 font-medium border-b-2 border-transparent text-gray-600 hover:text-gray-600 hover:border-b-2 hover:border-gray-600 focus:border-b-2 focus:border-gray-600;
+  }
+  .gray-background {
+    @apply bg-sections-pattern bg-repeat;
+  }
 }

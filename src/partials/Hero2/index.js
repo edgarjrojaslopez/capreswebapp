@@ -6,11 +6,11 @@ import HeroImagen from "./../../assets/images/img6.jpg";
 
 const gradColor = "linearGradient(to right, #ff0099, #493240)";
 
-export default function Example() {
+export default function Hero() {
   return (
     <div className="relative bg-blue overflow-hidden">
       <div className="max-w-7xl mx-auto h-auto md:h-screen">
-        <div className="sm:relative z-10 pt-20 md:block lg:flex lg:flex-col lg:justify-around pb-8 sm:display-none  sm:pb-16 md:h-full md:pb-20  lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <div className="sm:relative z-10 pt-36 md:block lg:flex lg:flex-col lg:justify-around pb-8 sm:display-none  sm:pb-16 md:h-full md:pb-20 md:pt-20  lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           <svg
             className="hidden absolute lg:block   inset-y-0 h-full w-30  "
             viewBox="0 0 100 100"

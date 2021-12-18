@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function index() {
+const Nosotros = () => {
   return (
-    <div>
-      
+    <div className="h-screen w-full gray-background">
+      <h1 className="relative top-24">About page</h1>
     </div>
   )
 }
-container mx-auto flex px-2 py-16 md:flex-row flex-col items-center
-container mx-auto flex px-2 py-12 md:flex-row flex-col-reverse items-center
+
+export default Nosotros

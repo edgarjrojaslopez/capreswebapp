@@ -1,14 +1,14 @@
 
 import LandingPage from "./components/pages/LandingPage";
 import React, {Fragment} from "react";
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import Pages from "./components/pages"
 
 function App() {
   return (
-    <Fragment>
+    <React.Fragment>
       
-      <LandingPage />
-    </Fragment>
+      <Pages/>
+    </React.Fragment>
   );
 }
 

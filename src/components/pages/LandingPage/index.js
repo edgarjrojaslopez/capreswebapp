@@ -3,15 +3,16 @@ import { Fragment } from 'react'
 import Hero2 from "../../../partials/Hero2"
 import Navbar3 from "../../../partials/Navbar3";
 import Sections from "../../../partials/Sections"
-
-export default function index() {
+import Footer from "../../../partials/Footer"
+const LandingPage=()=> {
   return (
-    <Fragment>
-     <div className="relative">
-      <Navbar3 />
+    <React.Fragment>
+     <div >
       <Hero2 />
       <Sections />
+      
       </div> 
-    </Fragment>
+    </React.Fragment>
   )
 }
+export default LandingPage
